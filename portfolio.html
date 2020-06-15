@@ -342,15 +342,21 @@
           </div>
           <div>
             <p class="subscription">Подпишитесь на рассылку</p>
-            <!-- <div class="follow-container"> -->
-            <!-- <input type="text" placeholder="E-mail" class="enter-e-mail"> -->
-            <button class="footer-button" type="button">
-              Подписаться
-              <svg class="soc-icon" width="24" height="24">
-                <use href="./images/sprite.svg#icon-send"></use>
-              </svg>
-            </button>
-            <!-- </div> -->
+            <form class="footer-form">
+              <input
+                class="enter-mail"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+              <button class="footer-button" type="submit">
+                Подписаться
+                <svg class="send-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
         <p class="copyright">2020 &#124; Developed by GoIT Students</p>
